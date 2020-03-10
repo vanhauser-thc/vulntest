@@ -10,7 +10,7 @@ Initially I wanted to create sophisticated bugs and check if they can find
 them but found out that even easy test cases can be too hard ;-)
 
 The result of my testing can be read in the german article here:
-[https://www.heise.de/hintergrund/Pruefstand-fuer-Testwerkzeuge-Codeanalyse-im-Praxiseinsatz-4679430.html](https://www.heise.de/hintergrund/Pruefstand-fuer-Testwerkzeuge-Codeanalyse-im-Praxiseinsatz-4679430.html)
+[https://www.heise.de/hintergrund/Pruefstand-fuer-Testwerkzeuge-Codeanalyse-im-Praxiseinsatz-4679430.html?seite=all](https://www.heise.de/hintergrund/Pruefstand-fuer-Testwerkzeuge-Codeanalyse-im-Praxiseinsatz-4679430.html?seite=all)
 
 ## The test source code
 
