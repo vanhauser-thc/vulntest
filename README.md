@@ -37,18 +37,18 @@ based on a misconfiguration.
 And yes, most of them were not happy with the results.
 
 |   CODE/SOFTWARE    |Perfoce Klocwork 19.01|Parasoft C/C++test 10.4.2|Mathworks Bugfinder R2019a (2)|Viva 64 PVS Studio|CodeQL May 2020|cppcheck 1.90|llvm 8 clang-analyzer|
-|:------------------:|:------:|:-------:|:--------|:-------------:|:------:|:------------:|
-| andreas            | yes    | no      | no      | no            | no     | no     | no           |
-| bof                | yes    | no      | yes     | no            | yes    | no     | no           |
-| confuse            | no     | no      | no      | no            | no     | no     | no           |
-| double_free        | yes    | no      | no      | yes           | yes    | no     | yes          |
-| encrypt            | yes    | no      | yes     | no            | yes(1) | no     | no           |
-| fdleak             | no     | no      | no      | no            | no     | no     | no           |
-| hardcoded_password | yes    | no      | no      | no            | no     | no     | no           |
-| strcpy             | no     | yes     | no      | no            | yes(1) | no     | no           |
-| strcpy2            | no     | no      | no      | no            | no     | no     | no           |
-| tricky             |partial | no      | no      | yes           | no     | no     | no           |
-| use_after_free     | yes    | yes     | yes     | yes           | no     | yes    | yes          |
+|:------------------:|:------:|:-------:|:--------|:-------------:|:------:|:------------:|:------------:|
+| andreas            | yes    | no      | no      | no            | no     | no           | no           |
+| bof                | yes    | no      | yes     | no            | yes    | no           | no           |
+| confuse            | no     | no      | no      | no            | no     | no           | no           |
+| double_free        | yes    | no      | no      | yes           | yes    | no           | yes          |
+| encrypt            | yes    | no      | yes     | no            | yes(1) | no           | no           |
+| fdleak             | no     | no      | no      | no            | no     | no           | no           |
+| hardcoded_password | yes    | no      | no      | no            | no     | no           | no           |
+| strcpy             | no     | yes     | no      | no            | yes(1) | no           | no           |
+| strcpy2            | no     | no      | no      | no            | no     | no           | no           |
+| tricky             |partial | no      | no      | yes           | no     | no           | no           |
+| use_after_free     | yes    | yes     | yes     | yes           | no     | yes          | yes          |
 
 (1) Not in cpp-lgtm.qls but from cpp/ql/src/Security
 
