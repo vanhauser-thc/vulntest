@@ -36,7 +36,7 @@ All vendors reviewed the setup and verified that the results were real and not
 based on a misconfiguration.
 And yes, most of them were not happy with the results.
 
-|   CODE/SOFTWARE    |Perfoce Klocwork 19.01|Parasoft C/C++test 10.4.2|Mathworks Bugfinder R2019a (2)|Viva 64 PVS Studio|CodeQL May 2020|cppcheck 1.90|llvm 8 clang-analyzer|
+|   CODE/SOFTWARE    |Perforce Klocwork 19.01|Parasoft C/C++test 10.4.2|Mathworks Bugfinder R2019a (2)|Viva 64 PVS Studio|CodeQL May 2020|cppcheck 1.90|llvm 8 clang-analyzer|
 |:------------------:|:------:|:-------:|:--------|:-------------:|:------:|:------------:|:------------:|
 | andreas            | yes    | no      | no      | no            | no     | no           | no           |
 | bof                | yes    | no      | yes     | no            | yes    | no           | no           |
