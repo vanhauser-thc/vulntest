@@ -13,8 +13,10 @@ int main(int argc, char *argv[]) {
     return -1;
   }
 
-  if (geteuid() != getuid())
+  if (geteuid() != getuid()) {
+    setegid(getgid());
     seteuid(getuid());
+  }
 
   write(1, "Hello", 6);
 
