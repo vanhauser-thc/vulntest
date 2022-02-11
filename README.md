@@ -39,7 +39,7 @@ And yes, most of them were not happy with the results.
 |   CODE/SOFTWARE    |Perforce Klocwork 19.01|Parasoft C/C++test 10.4.2|Mathworks Bugfinder R2019a (2)|Viva 64 PVS Studio|CodeQL Feb 2022|joern Feb 2022|cppcheck 2.6|llvm 14 clang-analyzer|
 |:------------------:|:------:|:-------:|:--------|:-------------:|:------:|:------:|:------------:|:------------:|
 | andreas            | yes    | no      | no      | no            | no     | no     | no           | no           |
-| bof                | yes    | no      | yes     | no            | yes    | no     | no           | no           |
+| bof                | yes    | no      | yes     | no            | yes    | no     | no           | yes(3)       |
 | confuse            | no     | no      | no      | no            | no     | no     | no           | no           |
 | double_free        | yes    | no      | no      | yes           | no     | no     | no           | yes          |
 | encrypt            | yes    | no      | yes     | no            | yes(1) | no     | no           | no           |
@@ -56,3 +56,5 @@ And yes, most of them were not happy with the results.
     for robustness which includes buffer overruns. This might detect the buffer
     overflow bugs but is a seperate product that is not a SCA comparable to the
     others.
+
+(3) with alpha.security checkers enabled
