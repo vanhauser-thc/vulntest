@@ -1,4 +1,4 @@
-C=ok ok2 bof fdleak strcpy strcpy2 tricky encrypt use_after_free hardcoded_password
+C=ok ok2 bof fdleak strcpy strcpy2 tricky encrypt use_after_free hardcoded_password very
 CPP=confuse andreas double_free
 # unresolv
 
