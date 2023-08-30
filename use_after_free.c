@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
     printf("%s\n", container.foo.b);
     free(container.foo.b);
     if (container.foo.b)
-      container.foo.b[0] = 'S'; /* FLAW */
+      container.foo.b[0] = 'S';
   }
   return 0;
 }

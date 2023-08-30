@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
   int fd;
 
   if ((fd = open("/var/log/app.log", O_RDWR | O_APPEND | O_CREAT, 0600)) < 0) {
-    close(fd); // pointless on purpose
+    close(fd);
     return -1;
   }
 
@@ -18,9 +18,9 @@ int main(int argc, char *argv[]) {
     seteuid(getuid());
   }
 
-  write(1, "Hello", 6);
+  write(1, "Hello\n", 6);
 
-  system("/bin/bash"); // fd leak here
+  system("/bin/bash");
 
   close(fd);
   return 0;

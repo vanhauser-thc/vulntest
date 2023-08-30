@@ -6,9 +6,9 @@ int main(int argc, char *argv[]) {
   char *in = argv[1], *out = buf;
 
   if (argc > 1) {
-    strcpy(out, in); // buffer overflow
+    strcpy(out, in);
   }
-  (void)printf(buf); // format string
+  (void)printf(buf);
 
   return 0;
 }

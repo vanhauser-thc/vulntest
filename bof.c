@@ -19,12 +19,12 @@ int main(int argc, char *argv[]) {
   if (fgets(line, sizeof(line), f) == NULL)
     return -1;
 
-  size = atoi(line); // untrusted
+  size = atoi(line);
 
   if ((data = malloc(size)) == NULL)
     return -1;
 
-  fread(data, 1, 1024, f); // bof
+  fread(data, 1, 1024, f);
   data[1023] = 0;
 
   printf("Data: %s\n", data);

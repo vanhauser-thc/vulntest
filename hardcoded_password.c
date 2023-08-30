@@ -77,7 +77,7 @@ int main(int argc, char *argv[]) {
     password = getpass_r("Password: ");
 
     if (password != NULL) {
-      if (strcmp(password, "0xDEADBEEF") == 0) { /* FLAW */
+      if (strcmp(password, "0xDEADBEEF") == 0) {
         loggedin = true;
         printf("Logged in\n");
       } else

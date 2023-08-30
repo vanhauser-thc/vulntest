@@ -24,9 +24,9 @@ int main(int argc, char *argv[]) {
     exit(-1);
   }
   if (argv[1][0] == '1')
-    g = static_cast<Greeter *>(b1); // this is OK
+    g = static_cast<Greeter *>(b1);
   else if (argv[1][0] == '2')
-    g = static_cast<Greeter *>(b2); // this is type confusion
+    g = static_cast<Greeter *>(b2);
   else {
     printf("wrong mode\n");
     exit(-1);
